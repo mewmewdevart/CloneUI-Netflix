@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --vermelho:#D61F26;
+    --preta:#040C0E;
+    --cinza:#C4C4C4;
+    --branco:#FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif, times;
+}
+
+body    {
+    background-color: var(--preta);
+
+}
+
+.Logo-Netflix {
+    margin: 5px;
+    width: 150px;
+}
+
+.Foto-Perfil {
+    width: 50px;
+    border-radius: 5px;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba(4, 12, 14, .15);
+    backdrop-filter: blur(5px);
+}
+
+
+header nav a {
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--branco);
+    margin-right: 10px;
+}
