@@ -15,6 +15,7 @@
     font-family: 'Roboto', sans-serif, times;
 }
 
+
 /* Elementos base */
 body    {
     background-color: var(--preta);
@@ -30,6 +31,14 @@ header .container {
     background-color: rgba(4, 12, 14, .15);
     backdrop-filter: blur(5px);
     
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
 }
 
 .Logo-Netflix {
