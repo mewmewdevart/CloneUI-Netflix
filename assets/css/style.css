@@ -34,7 +34,7 @@ header .container {
 }
 
 .Logo-Netflix {
-    margin: 5px;
+    margin-top: 5px;
     width: 150px;
 }
 
@@ -71,14 +71,29 @@ header nav a:hover {
     align-items: flex-start; /* Comece sempre da esquerda para direita */
 }
 
-.descricao-Destaque {
+.filme-principal .descricao-Destaque {
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
-.logo-Destaque img {
-    width: 200%;
+.filme-principal .logo-Destaque img {
+    margin-top: 5%;
+    width: 100%;
 }
 
-.botoes-principal   {
-    
+ .botao   {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px 25px; /* 15 e 30 */
+    margin-right: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover    {
+    background-color: white;
+    color: black;
 }
