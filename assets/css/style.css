@@ -15,21 +15,11 @@
     font-family: 'Roboto', sans-serif, times;
 }
 
+/* Elementos base */
 body    {
     background-color: var(--preta);
-
+    color: var(--branco);
 }
-
-.Logo-Netflix {
-    margin: 5px;
-    width: 150px;
-}
-
-.Foto-Perfil {
-    width: 50px;
-    border-radius: 5px;
-}
-
 
 header .container {
     display: flex;
@@ -37,11 +27,20 @@ header .container {
     align-items: center;
     justify-content: space-between;
     border: 1px solid white;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(4, 12, 14, .15);
     backdrop-filter: blur(5px);
+    
 }
 
+.Logo-Netflix {
+    margin: 5px;
+    width: 150px;
+}
+
+.Profile-row {
+    width: 40px;
+}
 
 header nav a {
     color: var(--cinza);
@@ -51,4 +50,35 @@ header nav a {
 header nav a:hover {
     color: var(--branco);
     margin-right: 10px;
+}
+
+
+.Profile-Pic {
+    width: 50px;
+    border-radius: 10px;
+}
+
+/* Filme de Destaque */
+.filme-principal  {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../image/banner.jpg');  
+    height: 600px;
+    background-size: cover;
+
+    display: flex; /* Em linha - Por padrão */
+    flex-direction: column; /* Coluna */
+    justify-content: center;
+    align-items: flex-start; /* Comece sempre da esquerda para direita */
+}
+
+.descricao-Destaque {
+    margin-bottom: 30px;
+}
+
+.logo-Destaque img {
+    width: 200%;
+}
+
+.botoes-principal   {
+    
 }
