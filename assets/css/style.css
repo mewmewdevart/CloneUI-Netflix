@@ -41,6 +41,10 @@ header .container {
     width: 70%;
 }
 
+.logo-N {
+    width: 25px;
+}
+
 .Logo-Netflix {
     width: 125px;
 }
@@ -71,7 +75,7 @@ header nav a:hover {
 /* Filme de Destaque */
 .filme-principal  {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../image/banner3.jpg');  
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../image/banner0.png');  
     height: 600px;
     background-size: cover;
 
@@ -110,4 +114,11 @@ header nav a:hover {
 
 .botao i  {
     margin-right: 8px;
+}
+
+.box-filme  {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
