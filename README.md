@@ -19,7 +19,8 @@ O desafio consiste em desafiar o aluno(a) a desenvolver a interface grafica de N
 - JAVASCRIPT
 
 ### 📺 Print Screen:
-![Catflix](https://user-images.githubusercontent.com/50052600/121450018-50dbc680-c971-11eb-888a-2e6eae86cd92.jpg)
+![Catflix](https://user-images.githubusercontent.com/50052600/121450499-440ba280-c972-11eb-8639-5618f2f70dd0.jpg)
+
 
 <p align="center"> Desenvolvido com 💜 por Larissa Cristina Benedito. </p>
 
