@@ -15,6 +15,7 @@
     font-family: 'Roboto', sans-serif, times;
     font-size: 16px;
 
+    /* Tirando o Clicar e arrastar */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -22,7 +23,6 @@
     -ms-user-select: none;
     user-select: none;
 }
-
 
 /* Elementos base */
 body    {
@@ -61,12 +61,11 @@ header .container {
     align-items: center;
 }
 
-
-
 .Logo-Perfil {
     width: 40px;
     border-radius: 10px;
 }
+
 
 nav {
     z-index: 1;
@@ -84,7 +83,6 @@ header nav a:hover {
 }
 
 
-
 /* Filme de Destaque */
 .info-PreTitulo {
     width: 50px;
@@ -98,10 +96,9 @@ header nav a:hover {
     width: 35%;
 }
 
-.filme-principal  { 
+.filme-principal  {
+    /* Movi o Background daqui para o Body */ 
     height: 600px;
-
-
     display: flex; /* Em linha - Por padrão */
     flex-direction: column; /* Coluna */
     justify-content: center;
@@ -125,13 +122,14 @@ header nav a:hover {
 }
 
 
+/* Box - Quadrado TOP10 */
 .box-Top10 {
     width: 40px;
     height: 40px;
     border-radius: 5px;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: var(--branco);
+    color: var(--preta);
     font-weight: bold;
     font-size: 14px;
     padding: 3px;
@@ -147,7 +145,7 @@ header nav a:hover {
  .botao   {
     background-color: rgba(97, 97, 97, 0.5);
     border: none;
-    color: white;
+    color: var(--branco);
     font-weight: bold;
 
     padding: 10px 25px; /* 15 e 30 */
@@ -159,8 +157,8 @@ header nav a:hover {
 }
 
 .botao:hover    {
-    background-color: white;
-    color: black;
+    background-color: var(--branco);
+    color: var(--preta);
 }
 
 .btnWhite {
@@ -188,7 +186,6 @@ header nav a:hover {
 }
 
 
-
 /* Footer */
 footer ,
 footer .copy {
@@ -205,7 +202,7 @@ footer .copy span {
 }
 
 
-/* Small Screen */
+/* Small Screen - Heart */
 @-moz-keyframes hearts {
   50% {
     transform: scale(1.4);
