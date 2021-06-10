@@ -24,5 +24,5 @@ O desafio consiste em desafiar o aluno(a) a desenvolver a interface grafica de N
 
 ### Créditos:
 <p align="center"> Desenvolvido com 💜 por Larissa Cristina Benedito. </p>
-<p align="center"> Imagens: [[Catflix](https://www.championcat.cl/catflix/) </p>
+<p align="center"> Imagens: [Catflix](https://www.championcat.cl/catflix/) </p>
 
