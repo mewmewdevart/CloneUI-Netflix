@@ -16,7 +16,7 @@ O desafio consiste em desafiar o aluno(a) a desenvolver a interface grafica de N
 
 - HTML5
 - CSS3
-- JAVASCRIPT
+- JAVASCRIPT - Owl Carousel
 
 ### 📺 Print Screen:
 ![Catflix](https://user-images.githubusercontent.com/50052600/121450499-440ba280-c972-11eb-8639-5618f2f70dd0.jpg)
