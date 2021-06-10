@@ -22,5 +22,7 @@ O desafio consiste em desafiar o aluno(a) a desenvolver a interface grafica de N
 ![Catflix](https://user-images.githubusercontent.com/50052600/121450499-440ba280-c972-11eb-8639-5618f2f70dd0.jpg)
 
 
+### Créditos:
 <p align="center"> Desenvolvido com 💜 por Larissa Cristina Benedito. </p>
+<p align="center"> Imagens: [[Catflix](https://www.championcat.cl/catflix/) </p>
 
