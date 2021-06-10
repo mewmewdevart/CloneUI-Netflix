@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --purple:rgb(203, 158, 207);
+    --preta:rgb(0, 0, 0);
+    --cinza:rgb(196, 196, 196);
+    --branco:rgb(255, 255, 255);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif, times;
+    font-size: 16px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Elementos base */
+body    {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../image/bannerPrincipal.jpg'); 
+    height: 800px; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: var(--preta);
+    color: var(--branco);
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .05);
+    backdrop-filter: blur(2px);
+}
+.container {
+    padding-left: 10px;
+}
+
+.Logo-Catflix{
+    width: 125px;
+}
+
+.box-Perfil  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.Logo-Perfil {
+    width: 40px;
+    border-radius: 10px;
+}
+
+nav {
+    z-index: 1;
+    padding-left: 20px;
+}
+
+header nav a {
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--branco);
+    margin-right: 10px;
+}
+
+
+
+/* Filme de Destaque */
+.info-PreTitulo {
+    width: 50px;
+}
+
+.logo-C img {
+    width: 20px;
+}
+
+.filme-principal .container {
+    width: 35%;
+}
+
+.filme-principal  { 
+    height: 600px;
+
+
+    display: flex; /* Em linha - Por padrão */
+    flex-direction: column; /* Coluna */
+    justify-content: center;
+    align-items: flex-start; /* Comece sempre da esquerda para direita */
+}
+
+.filme-principal .descricao-Destaque {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.filme-principal .logo-Destaque img {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.info-BoxTitulo    {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.box-Top10 {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.text-Top10 {
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+/* Botao */
+ .botao   {
+    background-color: rgba(97, 97, 97, 0.5);
+    border: none;
+    color: white;
+    font-weight: bold;
+
+    padding: 10px 25px; /* 15 e 30 */
+    margin-right: 15px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover    {
+    background-color: white;
+    color: black;
+}
+
+.btnWhite {
+    background-color: var(--branco);
+    border: none;
+    color: var(--preta);
+}
+
+.btnWhite:hover {
+    background-color: var(--cinza);
+    border: none;
+    color: var(--preta);
+}
+
+
+.botao i  {
+    margin-right: 8px;
+}
+
+.box-filme  {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+
+/* Footer */
+footer ,
+footer .copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .copy span {
+  position: relative;
+  display: inline-block;
+  color: var(--purple); 
+  animation: hearts 0.6s cubic-bezier(0.18, 0.89, 0.29, 1.05) infinite;
+}
+
+
+/* Small Screen */
+@-moz-keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@-webkit-keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@-o-keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@keyframes hearts {
+  50% {
+    transform: scale(1.4);
+  }
+}
